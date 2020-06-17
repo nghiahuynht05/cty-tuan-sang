@@ -723,7 +723,7 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
+  /* padding-right: 15px; */
   padding-left: 15px;
 }
 
@@ -1309,7 +1309,6 @@ pre code {
     flex: 0 0 50%;
     max-width: 50%;
   }
-
   .col-lg-7 {
     flex: 0 0 58.33333%;
     max-width: 58.33333%;
@@ -9850,13 +9849,50 @@ body>* {
   background-color: black
 }
 
-.p-5-cts {
-  padding-top: 10px;
-}
-
 .btn-info {
   background-image: linear-gradient(to bottom, rgb(66, 135, 245), rgb(66, 135, 245));
   background-position: top left;
   background-size: 100%;
   background-repeat: repeat;
+}
+
+.card-img-bottom1 {
+  color: #fff;
+  height: 20rem;
+  background: url(image/hinh-2.png) center no-repeat;
+  background-size: cover;
+}
+
+.card-img-bottom2 {
+  color: #fff;
+  height: 20rem;
+  background: url(image/hinh-4.png) center no-repeat;
+  background-size: cover;
+}
+
+.card-img-bottom3 {
+  color: #fff;
+  height: 20rem;
+  background: url(image/hinh-1.png) center no-repeat;
+  background-size: cover;
+}
+
+.card-img-bottom4 {
+  color: #fff;
+  height: 20rem;
+  background: url(image/hinh-3.png) center no-repeat;
+  background-size: cover;
+}
+
+.number-info01{
+  padding-left: 8%;
+}
+
+.number-info02{
+  padding-left: 18%;
+}
+
+.ramdom-number{
+font-size: 40px;
+color: red;
 }
