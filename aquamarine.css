@@ -187,7 +187,7 @@ sup {
 }
 
 a {
-  color: #12bbad;
+  color: #FFFFFF;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -724,7 +724,7 @@ pre code {
   width: 100%;
   min-height: 1px;
   /* padding-right: 15px; */
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 
 .col {
@@ -9667,7 +9667,7 @@ body>* {
   width: 100%;
   height: 100%;
   content: ' ';
-  background: linear-gradient(to bottom right, rgba(18, 187, 173, 0.9) 0%, rgba(79, 112, 206, 0.9) 100%);
+  /* background: linear-gradient(to bottom right, rgba(18, 187, 173, 0.9) 0%, rgba(79, 112, 206, 0.9) 100%); */
 }
 
 .section-dark {
@@ -9859,28 +9859,28 @@ body>* {
 .card-img-bottom1 {
   color: #fff;
   height: 20rem;
-  background: url(image/hinh-2.png) center no-repeat;
+  background: url(image/hinh-2.png) top no-repeat;
   background-size: cover;
 }
 
 .card-img-bottom2 {
   color: #fff;
   height: 20rem;
-  background: url(image/hinh-4.png) center no-repeat;
+  background: url(image/hinh-4.png) top no-repeat;
   background-size: cover;
 }
 
 .card-img-bottom3 {
   color: #fff;
   height: 20rem;
-  background: url(image/hinh-1.png) center no-repeat;
+  background: url(image/hinh-1.png) top no-repeat;
   background-size: cover;
 }
 
 .card-img-bottom4 {
   color: #fff;
   height: 20rem;
-  background: url(image/hinh-3.png) center no-repeat;
+  background: url(image/hinh-3.png) top no-repeat;
   background-size: cover;
 }
 
@@ -9900,3 +9900,80 @@ body>* {
 font-size: 40px;
 color: red;
 }
+
+.modal {
+  text-align: center;
+  }
+  
+  .modal:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  height: 100%;
+  }
+  
+  .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  }
+
+  .box-banner{
+    background: url(image/THANHDICHUYENqc-02.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
+    -webkit-transition-property: background-size margin-bottom height;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-property: background-size margin-bottom height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.box-banner1{
+  background: url(image/THANH-DI-CHUYỂN-qc-03.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
+  -webkit-transition-property: background-size margin-bottom height;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property: background-size margin-bottom height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.box-banner2{
+  background: url(image/THANH-DI-CHUYỂN-qc-04.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
+  -webkit-transition-property: background-size margin-bottom height;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property: background-size margin-bottom height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.box{
+  background: url() center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
+  -webkit-transition-property: background-size margin-bottom height;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property:background-size margin-bottom height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.box1{
+  background: url() center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
+  -webkit-transition-property: background-size margin-bottom height;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property:background-size margin-bottom height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.box2{
+  background: url() center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
+  -webkit-transition-property: background-size margin-bottom height;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property:background-size margin-bottom height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
