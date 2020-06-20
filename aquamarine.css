@@ -5709,6 +5709,12 @@ button.close {
   }
 }
 
+@media (min-width: 375px) {
+  .modal-lg {
+    max-width: 375px;
+  }
+}
+
 .tooltip {
   position: absolute;
   z-index: 1070;
@@ -6033,8 +6039,8 @@ button.close {
   color: #333;
 }
 
-/* .carousel {
-  position: absolute; } */
+.carousel {
+  position: relative; }
 
 .carousel-inner {
   position: relative;
@@ -6202,7 +6208,7 @@ button.close {
   right: 0;
   bottom: 10px;
   left: 0;
-  z-index: 15;
+  z-index: 1;
   display: flex;
   justify-content: center;
   padding-left: 0;
@@ -9901,9 +9907,9 @@ font-size: 40px;
 color: red;
 }
 
-.modal {
+/* .modal {
   text-align: center;
-  }
+  } */
   
   .modal:before {
   display: inline-block;
