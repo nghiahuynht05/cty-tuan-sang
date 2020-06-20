@@ -127,7 +127,7 @@
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title" id="exampleModalLabel" style="color: black;">Liên hệ với chúng tôi:</h1>
@@ -339,20 +339,45 @@
         </div>
         <div class="row">
           <div class="col-sm">
-            <div class="fa fa-phone fa-1x" style="margin: 1rem"> 0905 76 70 08</div>
+            <div class="fa fa-phone fa-1x" style="margin: 1rem"><a href="tel:0905767008" style="color: white;"> 0905 76
+                70 08</a></div>
           </div>
           <div class="col-sm">
-            <div class="fa fa-home fa-1x" style="margin: 1rem"> 329 Huy Cận - Đà Nẵng</div>
+            <div class="fa fa-home fa-1x" style="margin: 1rem"><a href="https://goo.gl/maps/67a2RjCe1ykN9kTr6"
+                style="color: white;"> 329 Huy Cận - Đà Nẵng </a></div>
           </div>
           <div class="col-sm">
-            <div class="fa fa-envelope fa-1x" style="margin: 1rem"> dvtuansang@gmai.com</div>
+            <div class="fa fa-envelope fa-1x" style="margin: 1rem"> <a href="mailto:dvtuansang@gmai.com" style="color: white;">  dvtuansang@gmai.com</a></div>
           </div>
         </div>
       </div>
     </div>
   </footer>
   <!-- Load Facebook SDK for JavaScript -->
-
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <body>
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
@@ -377,20 +402,6 @@
     </div>
   </body>
   </div>
-  <!-- <div class="call-mobile2" aria-hidden="true">
-    <img id="#fb-root" class="" style="height: 70px; width: 70px;" aria-hidden="true" src="image/icon-04.png">
-    </img> -->
-  <!-- 
-  <!-- 
-      <!-- 
-  <!-- 
-      <!-- 
-    <a class="fab fa-facebook-messenger" data-animate="fadeInDown" data-animated="true"
-      href="http://zalo.me/01267461772" rel="noopener noreferrer" style="border-radius:99px;" target="_blank">
-      <span>ChatZalo </span>
-    </a> -->
-  <!-- <i class="fa fa-facebook-messenger" aria-hidden="true"></i> -->
-  <!-- </div> -->
   <!-- JavaScript dependencies -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
