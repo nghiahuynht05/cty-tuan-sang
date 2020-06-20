@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- PAGE settings -->
-  <link rel="icon" href="image/LOGO-02.png">
+  <link rel="icon" href="image/LOGO-04.png">
   <title>CTy Tuấn Sáng</title>
   <meta name="description">
   <meta name="keywords">
@@ -17,6 +17,8 @@
   <script src="js/navbar-ontop.js"></script>
   <!-- Script: Animated entrance -->
   <script src="js/animate-in.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+    integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
 </head>
 
 <body class="text-center">
@@ -45,7 +47,7 @@
       <div class="row">
         <div class="col-md-12">
           <a class="navbar-brand" href="#">
-            <img class="img-fluid" src="image/LOGO-02.png" alt="">
+            <img class="img-fluid" src="image/LOGO-04.png" alt="">
           </a>
         </div>
       </div>
@@ -267,14 +269,14 @@
               </div>
             </div>
             <div class="col-lg-6 order-lg-1" style="text-align: center;">
-              <h2 class="display-4">SỬA MÁY GIẶC</h2>
+              <h2 class="display-4">SỬA MÁY GIẶT</h2>
               <p style="font-size: 20px;">Với hơn 8 năm kinh nghiệm trong nghề, giúp hàng ngàn hộ gia đình, hàng trăm hộ
                 kinh doanh xử lý nhanh
                 gọn vấn đề cầu cống, chúng tôi sẵn sàng làm hài lòng tất cả khách hàng trong bất kỳ trường hợp nào.
               </p>
               <a href="#register" class="btn btn-lg btn-outline-primary text-uppercase text-center btn-info"
                 data-toggle="modal" data-target="#exampleModal">CẦN SỬA MÁY
-                GIẶC NGAY</a>
+                GIẶT NGAY</a>
             </div>
           </div>
         </div>
@@ -327,7 +329,7 @@
       <div class="col col-lg-2">
         <div class="col-md-12">
           <a class="navbar-brand" href="#">
-            <img class="img-fluid" src="image/LOGO-02.png" alt="">
+            <img class="img-fluid" src="image/LOGO-04.png" alt="">
           </a>
         </div>
       </div>
@@ -353,6 +355,40 @@
       </div>
     </div>
   </footer>
+  <!-- Load Facebook SDK for JavaScript -->
+
+  <body>
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: 'v7.0'
+        });
+      };
+
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="587874101268894" theme_color="#ffc300">
+  </body>
+  </div>
+  <div class="call-mobile2" aria-hidden="true">
+    <img id="#fb-root" class="" style="height: 70px; width: 70px;" aria-hidden="true" src="image/icon-04.png">
+    </img>
+    <!-- 
+    <a class="fab fa-facebook-messenger" data-animate="fadeInDown" data-animated="true"
+      href="http://zalo.me/01267461772" rel="noopener noreferrer" style="border-radius:99px;" target="_blank">
+      <span>ChatZalo </span>
+    </a> -->
+    <!-- <i class="fa fa-facebook-messenger" aria-hidden="true"></i> -->
+  </div>
   <!-- JavaScript dependencies -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"

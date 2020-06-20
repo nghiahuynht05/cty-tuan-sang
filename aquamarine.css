@@ -9977,3 +9977,6 @@ color: red;
   transition-timing-function: ease-in-out;
 }
 
+.call-mobile2{position: fixed;bottom: 0px;height: 70px;line-height: 40px;
+  padding: 0 0px 0 0px;border-radius: 40px;color: #fff;right: 20px;z-index: 99999;
+  }
