@@ -9885,15 +9885,15 @@ body>* {
 }
 
 .number-info01{
-  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .number-info02{
-  padding-left: 28%;
+  /* padding-left: 28%; */
 }
 
 .number-info03{
-  padding-left: 32%;
+  /* padding-left: 32%; */
 }
 
 .ramdom-number{

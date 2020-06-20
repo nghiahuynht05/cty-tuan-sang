@@ -92,7 +92,7 @@
                 <div class="d-none d-md-block display-4 box-banner"></div>
                 <div class="d-none d-md-block display-4 box-banner1"></div>
                 <div class="d-none d-md-block display-4 box-banner2"></div>
-                <a href="#register" class="btn btn-lg btn-outline-primary text-uppercase text-center w-25"
+                <a href="#register" class="btn btn-lg btn-outline-primary text-uppercase text-center w-auto"
                   data-toggle="modal" data-target="#exampleModal"
                   style="	background-image: linear-gradient(to bottom, rgb(66, 135, 245), rgb(66, 135, 245));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">Liên
                   Hệ Ngay</a>
@@ -113,7 +113,7 @@
                 <div class="d-none d-md-block display-4 box-banner"></div>
                 <div class="d-none d-md-block display-4 box-banner1"></div>
                 <div class="d-none d-md-block display-4 box-banner2"></div>
-                <a href="#register" class="btn btn-lg btn-outline-primary text-uppercase text-center w-25"
+                <a href="#register" class="btn btn-lg btn-outline-primary text-uppercase text-center w-auto"
                   data-toggle="modal" data-target="#exampleModal"
                   style="	background-image: linear-gradient(to bottom, rgb(66, 135, 245), rgb(66, 135, 245));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">Liên
                   Hệ Ngay</a>
@@ -155,36 +155,23 @@
       </div>
     </div>
   </div>
-  <!-- Menu -->
-  <div class="row list" id="fix-menu-info" style="height: 80px;z-index:1">
-    <div class="item col-sm bg-dark text-uppercase text-center" style="padding: 25px 0px 15px 5px;">
-      <a href="#thongtac">
-        <div class="btn">Thông tắc cầu cống</div>
-      </a>
-    </div>
-    <div class="item col-sm bg-dark text-uppercase text-center" style="padding: 25px 0px 15px 5px;">
-      <a href="#dieuhoa">
-        <div class="btn">SỬA ĐIỀU HÒA</div>
-      </a>
-    </div>
-    <div class="item col-sm bg-dark text-uppercase text-center" style="padding: 25px 0px 15px 5px;">
-      <a href="#maygiac">
-        <div class="btn">SỬA MÁY GIẶT</div>
-      </a>
-    </div>
-    <div class="item col-sm bg-dark text-uppercase text-center" style="padding: 25px 0px 15px 5px;">
-      <a href="#tulanh">
-        <div class="btn">SỬA TỦ LẠNH</div>
-      </a>
-    </div>
-    <div class="item col-sm bg-dark text-uppercase text-center" style="padding: 25px 0px 15px 5px;">
-      <a href="#other">
-        <div class="btn">DỊCH VỤ KHÁC</div>
-      </a>
-    </div>
-  </div>
+  <section class="d-md-flex flex-md-equal w-100">
+    <nav class="navbar navbar-expand-lg item col-sm bg-dark text-uppercase text-center" id="fix-menu-info"
+      style="z-index:1;font-size: 15px;">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="list navbar-nav w-100">
+          <a class="item nav-item nav-link w-25" href="#thongtac">THÔNG TẮC CẦU CỐNG</a>
+          <a class="item nav-item nav-link w-25" href="#dieuhoa">SỬA ĐIỀU HÒA</a>
+          <a class="item nav-item nav-link w-25" href="#maygiac">SỬA MÁY GIẶT</a>
+          <a class="item nav-item nav-link w-25" href="#tulanh">SỬA TỦ LẠNH</a>
+          <a class="item nav-item nav-link w-25" href="#other">DỊCH VỤ KHÁC</a>
+
+        </div>
+      </div>
+    </nav>
+  </section>
   <!-- Section -->
-  <section>
+  <section class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
     <div class="container">
       <div class="section-info" style="margin-top: 20px;">
         <div class="row align-items-center">
@@ -193,27 +180,27 @@
       </div>
       <div class="container">
         <div class="row align-items-center" id="fix-menu-info" style="height: 80px">
-          <div class="item number-info01 text-center">
+          <div class="col-6 col-md-4 item number-info01 text-center">
             <p id="randomParner" class="ramdom-number"></p>
           </div>
-          <div class="item number-info02 text-center">
+          <div class="col-6 col-md-4 item number-info02 text-center">
             <p id="randomResort" class="ramdom-number"></p>
           </div>
-          <div class="item number-info03 text-center">
+          <div class="col-6 col-md-4 item number-info03 text-center">
             <p id="randomHouse" class="ramdom-number"></p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="thongtac">
+  <section class="d-md-flex flex-md-equal w-100 h-100 my-md-3 pl-md-3" id="thongtac">
     <div class="row">
       <div class="col">
-        <div class="section-info" style="height: 500px;">
-          <div class="row align-items-center" style="height: 500px;">
-            <div class="col-lg-6 order-lg-2" style="height: 500px;">
-              <div class="col-md-6 ml-auto justify-content-end" style="height: 500px;">
-                <div class="card-img-bottom1" style="height: 500px;"></div>
+        <div class="section-info h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-lg-6 order-lg-2 h-100">
+              <div class="col-md-6 ml-auto justify-content-end h-100">
+                <div class="card-img-bottom1 h-100"></div>
               </div>
             </div>
             <div class="col-lg-6 order-lg-1" style="text-align: center;">
@@ -232,14 +219,14 @@
       </div>
     </div>
   </section>
-  <section id="dieuhoa">
+  <section class="d-md-flex flex-md-equal w-100 h-100 my-md-3" id="dieuhoa">
     <div class="row">
       <div class="col">
-        <div class="section-info" style="height: 500px;">
-          <div class="row align-items-center" style="height: 500px;">
-            <div class="col-lg-6 order-lg-1" style="height: 500px;">
-              <div class="col-md-6" style="max-width: initial;padding-left: 0px; height: 500px;">
-                <div class="card-img-bottom2" style="height: 500px;"></div>
+        <div class="section-info h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-lg-6 order-lg-1 h-100">
+              <div class="col-md-6 h-100" style="max-width: initial;padding-left: 0px">
+                <div class="card-img-bottom2 h-100"></div>
               </div>
             </div>
             <div class="col-lg-6 order-lg-2">
@@ -258,14 +245,14 @@
       </div>
     </div>
   </section>
-  <section id="maygiac">
+  <section class="d-md-flex flex-md-equal w-100 h-100 my-md-3 pl-md-3" id="maygiac">
     <div class="row">
       <div class="col">
-        <div class="section-info" style="height: 500px;">
-          <div class="row align-items-center" style="height: 500px;">
-            <div class="col-lg-6 order-lg-2" style="height: 500px;">
-              <div class="col-md-6 ml-auto justify-content-end" style="height: 500px;">
-                <div class="card-img-bottom3" style="height: 500px;"></div>
+        <div class="section-info h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-lg-6 order-lg-2 h-100">
+              <div class="col-md-6 ml-auto justify-content-end h-100">
+                <div class="card-img-bottom3 h-100"></div>
               </div>
             </div>
             <div class="col-lg-6 order-lg-1" style="text-align: center;">
@@ -283,14 +270,14 @@
       </div>
     </div>
   </section>
-  <section>
-    <div class="row" id="tulanh">
+  <section id="tulanh" class="d-md-flex flex-md-equal w-100 h-100 my-md-3">
+    <div class="row">
       <div class="col">
-        <div class="section-info" style="height: 500px;">
-          <div class="row align-items-center" style="height: 500px;">
-            <div class="col-lg-6 order-lg-1" style="height: 500px;">
-              <div class="col-md-6" style="max-width: initial;padding-left: 0px; height: 500px;">
-                <div class="card-img-bottom4" style="height: 500px;"></div>
+        <div class="section-info h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-lg-6 order-lg-1 h-100">
+              <div class="col-md-6 h-100" style="max-width: initial;padding-left: 0px;">
+                <div class="card-img-bottom4 h-100"></div>
               </div>
             </div>
             <div class="col-lg-6 order-lg-2" style="text-align: center;">
@@ -335,21 +322,17 @@
       </div>
       <div class="col">
         <div>
-          <h1> CÔNG TY TNHH DỊCH VỤ GIA ĐÌNH TUẤN SÁNG</h1>
+          <h2> CÔNG TY TNHH DỊCH VỤ GIA ĐÌNH TUẤN SÁNG</h1>
         </div>
         <div class="row">
-          <div class="col">
-            <div class="fa fa-phone fa-2x" style="margin: 1rem"> 0905 76 70 08</div>
+          <div class="col-sm">
+            <div class="fa fa-phone fa-1x" style="margin: 1rem"> 0905 76 70 08</div>
           </div>
-          <div class="row">
-            <div class="col">
-              <div class="fa fa-home fa-2x" style="margin: 1rem"> 329 Huy Cận - Đà Nẵng</div>
-            </div>
+          <div class="col-sm">
+            <div class="fa fa-home fa-1x" style="margin: 1rem"> 329 Huy Cận - Đà Nẵng</div>
           </div>
-          <div class="row">
-            <div class="col">
-              <div class="fa fa-envelope fa-2x" style="margin: 1rem"> dvtuansang@gmai.com</div>
-            </div>
+          <div class="col-sm">
+            <div class="fa fa-envelope fa-1x" style="margin: 1rem"> dvtuansang@gmai.com</div>
           </div>
         </div>
       </div>
@@ -358,6 +341,7 @@
   <!-- Load Facebook SDK for JavaScript -->
 
   <body>
+    <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
     <script>
       window.fbAsyncInit = function () {
@@ -376,19 +360,20 @@
       }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat" attribution=setup_tool page_id="587874101268894" theme_color="#ffc300">
+    <div class="fb-customerchat" attribution=setup_tool page_id="119999905386546">
+    </div>
   </body>
   </div>
-  <div class="call-mobile2" aria-hidden="true">
+  <!-- <div class="call-mobile2" aria-hidden="true">
     <img id="#fb-root" class="" style="height: 70px; width: 70px;" aria-hidden="true" src="image/icon-04.png">
-    </img>
-    <!-- 
+    </img> -->
+  <!-- 
     <a class="fab fa-facebook-messenger" data-animate="fadeInDown" data-animated="true"
       href="http://zalo.me/01267461772" rel="noopener noreferrer" style="border-radius:99px;" target="_blank">
       <span>ChatZalo </span>
     </a> -->
-    <!-- <i class="fa fa-facebook-messenger" aria-hidden="true"></i> -->
-  </div>
+  <!-- <i class="fa fa-facebook-messenger" aria-hidden="true"></i> -->
+  <!-- </div> -->
   <!-- JavaScript dependencies -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
