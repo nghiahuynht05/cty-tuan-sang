@@ -5709,12 +5709,6 @@ button.close {
   }
 }
 
-@media (min-width: 375px) {
-  .modal-lg {
-    max-width: 375px;
-  }
-}
-
 .tooltip {
   position: absolute;
   z-index: 1070;
