@@ -1309,6 +1309,7 @@ pre code {
     flex: 0 0 50%;
     max-width: 50%;
   }
+
   .col-lg-7 {
     flex: 0 0 58.33333%;
     max-width: 58.33333%;
@@ -6034,7 +6035,8 @@ button.close {
 }
 
 .carousel {
-  position: relative; }
+  position: relative;
+}
 
 .carousel-inner {
   position: relative;
@@ -9860,13 +9862,16 @@ body>* {
   color: #fff;
   height: 20rem;
   background: url(image/hinh-2.png) top no-repeat;
+  background-position-x: right;
+  background-position-y: top;
   background-size: cover;
 }
 
 .card-img-bottom2 {
   color: #fff;
-  height: 20rem;
-  background: url(image/hinh-4.png) top no-repeat;
+  background: url(image/suadieuhoa-06.png) top no-repeat;
+  background-position-x: left;
+  background-position-y: top;
   background-size: cover;
 }
 
@@ -9879,41 +9884,36 @@ body>* {
 
 .card-img-bottom4 {
   color: #fff;
-  height: 20rem;
-  background: url(image/hinh-3.png) top no-repeat;
+  background: url(image/suatulanh-07.png) top no-repeat;
   background-size: cover;
+  background-position-x: left;
+  background-position-y: top;
+
 }
 
-.number-info01{
+.number-info01 {
   padding-right: 8%;
 }
 
-.number-info02{
+.number-info02 {
   /* padding-left: 28%; */
 }
 
-.number-info03{
+.number-info03 {
   /* padding-left: 32%; */
 }
 
-.ramdom-number{
-font-size: 40px;
-color: red;
+.ramdom-number {
+  font-size: 40px;
+  color: red;
 }
 
 
-  .box-banner{
-    background: url(image/THANHDICHUYENqc-02.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
-    -webkit-transition-property: background-size margin-bottom height;
-    -webkit-transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-in-out;
-    transition-property: background-size margin-bottom height;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-}
-
-.box-banner1{
-  background: url(image/THANH-DI-CHUYỂN-qc-03.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
+.box-banner {
+  background: url(image/THANHDICHUYENqc-02.png) center no-repeat;
+  background-size: cover;
+  height: 80px;
+  margin-bottom: 20px;
   -webkit-transition-property: background-size margin-bottom height;
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-in-out;
@@ -9922,8 +9922,11 @@ color: red;
   transition-timing-function: ease-in-out;
 }
 
-.box-banner2{
-  background: url(image/THANH-DI-CHUYỂN-qc-04.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
+.box-banner1 {
+  background: url(image/THANH-DI-CHUYỂN-qc-03.png) center no-repeat;
+  background-size: cover;
+  height: 80px;
+  margin-bottom: 20px;
   -webkit-transition-property: background-size margin-bottom height;
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-in-out;
@@ -9932,35 +9935,66 @@ color: red;
   transition-timing-function: ease-in-out;
 }
 
-.box{
-  background: url() center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
+.box-banner2 {
+  background: url(image/THANH-DI-CHUYỂN-qc-04.png) center no-repeat;
+  background-size: cover;
+  height: 80px;
+  margin-bottom: 20px;
   -webkit-transition-property: background-size margin-bottom height;
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-in-out;
-  transition-property:background-size margin-bottom height;
+  transition-property: background-size margin-bottom height;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
 
-.box1{
-  background: url() center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
+.box {
+  background: url() center no-repeat;
+  background-size: cover;
+  height: 80px;
+  margin-bottom: 20px;
   -webkit-transition-property: background-size margin-bottom height;
   -webkit-transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-in-out;
-  transition-property:background-size margin-bottom height;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-}
-.box2{
-  background: url() center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;
-  -webkit-transition-property: background-size margin-bottom height;
-  -webkit-transition-duration: 0.5s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-property:background-size margin-bottom height;
+  transition-property: background-size margin-bottom height;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
 
-.call-mobile2{position: fixed;bottom: 0px;height: 70px;line-height: 40px;
-  padding: 0 0px 0 0px;border-radius: 40px;color: #fff;right: 20px;z-index: 99999;
-  }
+.box1 {
+  background: url() center no-repeat;
+  background-size: cover;
+  height: 80px;
+  margin-bottom: 20px;
+  -webkit-transition-property: background-size margin-bottom height;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property: background-size margin-bottom height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.box2 {
+  background: url() center no-repeat;
+  background-size: cover;
+  height: 80px;
+  margin-bottom: 20px;
+  -webkit-transition-property: background-size margin-bottom height;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property: background-size margin-bottom height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.call-mobile2 {
+  position: fixed;
+  bottom: 0px;
+  height: 70px;
+  line-height: 40px;
+  padding: 0 0px 0 0px;
+  border-radius: 40px;
+  color: #fff;
+  right: 20px;
+  z-index: 99999;
+}
