@@ -9999,6 +9999,6 @@ body>* {
   z-index: 99999;
 }
 
-#mobiDeviceHide{
+.mobiDeviceHide{
   display: none;
 }
