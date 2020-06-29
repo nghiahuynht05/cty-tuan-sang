@@ -4535,7 +4535,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color:#000000;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -10001,4 +10001,43 @@ body>* {
 
 .mobiDeviceHide{
   display: none;
+}
+
+.box-banner-mobi2 {
+  background: url(image/mobi-01.png) center no-repeat;
+  background-size: cover;
+  height: 50px;
+  margin-bottom: 20px;
+  -webkit-transition-property: background-size margin-bottom height;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property: background-size margin-bottom height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.box-banner-mobi1 {
+  background: url(image/mobi-02.png) right no-repeat;
+  background-size: cover;
+  height: 50px;
+  margin-bottom: 20px;
+  -webkit-transition-property: background-size margin-bottom height;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property: background-size margin-bottom height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.box-banner-mobi {
+  background: url(image/mobi-03.png) center no-repeat;
+  background-size: cover;
+  height: 50px;
+  margin-bottom: 20px;
+  -webkit-transition-property: background-size margin-bottom height;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property: background-size margin-bottom height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }

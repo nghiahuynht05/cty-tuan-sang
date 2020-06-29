@@ -52,21 +52,21 @@
         </div>
       </div>
 
-      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
-        <ul class="navbar-nav text-uppercase">
-          <li class="nav-item mx-2">
+      <div class="collapse navbar-collapse justify-content-end" id="navbar2SupportedContent">
+        <ul class="list navbar-nav text-uppercase">
+          <li class="item nav-item mx-2">
             <a class="nav-link" href="">Trang chủ</a>
           </li>
-          <li class="nav-item mx-2">
+          <li class="item nav-item mx-2">
             <a class="nav-link" href="">Dich vụ</a>
           </li>
-          <li class="nav-item mx-2">
+          <li class="item nav-item mx-2">
             <a class="nav-link" href="">Blog</a>
           </li>
-          <li class="nav-item mx-2">
+          <li class="item nav-item mx-2">
             <a class="nav-link" href="">Tuyển dụng</a>
           </li>
-          <li class="nav-item mx-2">
+          <li class="item nav-item mx-2">
             <a class="nav-link" href="#other">Liên hệ</a>
           </li>
         </ul>
@@ -74,7 +74,7 @@
     </div>
   </nav>
   <!-- Banner -->
-  <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+  <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="100000">
     <div class="carousel-inner">
       <ol class="carousel-indicators">
         <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
@@ -89,9 +89,9 @@
                 <div class="d-none d-md-block display-4"
                   style="background: url(image/SLOGAN-02.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;">
                 </div>
-                <div class="d-none d-md-block display-4 box-banner"></div>
-                <div class="d-none d-md-block display-4 box-banner1"></div>
-                <div class="d-none d-md-block display-4 box-banner2"></div>
+                <div class="d-none d-md-block display-4 box-banner" id="mobi-banner"></div>
+                <div class="d-none d-md-block display-4 box-banner1" id="mobi-banner1"></div>
+                <div class="d-none d-md-block display-4 box-banner2" id="mobi-banner2"></div>
                 <a href="#register" class="btn btn-lg btn-outline-primary text-uppercase text-center w-auto"
                   data-toggle="modal" data-target="#exampleModal"
                   style="	background-image: linear-gradient(to bottom, rgb(66, 135, 245), rgb(66, 135, 245));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">Liên
@@ -110,9 +110,9 @@
                 <div class="d-none d-md-block display-4"
                   style="background: url(image/SLOGAN-02.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;">
                 </div>
-                <div class="d-none d-md-block display-4 box-banner"></div>
-                <div class="d-none d-md-block display-4 box-banner1"></div>
-                <div class="d-none d-md-block display-4 box-banner2"></div>
+                <div class="d-none d-md-block display-4 box-banner" id="mobi-banner"></div>
+                <div class="d-none d-md-block display-4 box-banner1" id="mobi-banner1"></div>
+                <div class="d-none d-md-block display-4 box-banner2" id="mobi-banner2"></div>
                 <a href="#register" class="btn btn-lg btn-outline-primary text-uppercase text-center w-auto"
                   data-toggle="modal" data-target="#exampleModal"
                   style="	background-image: linear-gradient(to bottom, rgb(66, 135, 245), rgb(66, 135, 245));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">Liên
@@ -434,49 +434,49 @@
       }, 30000)
     }
 
-    function updateTransition() {
-      var el = document.querySelector("div.box-banner");
+    // function updateTransition() {
+    //   var el = document.querySelector("div.box-banner");
 
-      if (el) {
-        el.className = "box";
-      } else {
-        el = document.querySelector("div.box");
-        el.className = "box-banner";
-      }
+    //   if (el) {
+    //     el.className = "box";
+    //   } else {
+    //     el = document.querySelector("div.box");
+    //     el.className = "box-banner";
+    //   }
 
-      return el;
-    }
-    var intervalID = window.setInterval(updateTransition, 4000);
+    //   return el;
+    // }
+    // var intervalID = window.setInterval(updateTransition, 4000);
 
-    function updateTransition1() {
-      var el1 = document.querySelector("div.box-banner1");
+    // function updateTransition1() {
+    //   var el1 = document.querySelector("div.box-banner1");
 
-      if (el1) {
-        el1.className = "box1";
-      } else {
-        el1 = document.querySelector("div.box1");
-        el1.className = "box-banner1";
-      }
+    //   if (el1) {
+    //     el1.className = "box1";
+    //   } else {
+    //     el1 = document.querySelector("div.box1");
+    //     el1.className = "box-banner1";
+    //   }
 
-      return el1;
-    }
+    //   return el1;
+    // }
 
-    var intervalID1 = window.setInterval(updateTransition1, 4000);
+    // var intervalID1 = window.setInterval(updateTransition1, 4000);
 
-    function updateTransition2() {
-      var el2 = document.querySelector("div.box-banner2");
+    // function updateTransition2() {
+    //   var el2 = document.querySelector("div.box-banner2");
 
-      if (el2) {
-        el2.className = "box2";
-      } else {
-        el2 = document.querySelector("div.box2");
-        el2.className = "box-banner2";
-      }
+    //   if (el2) {
+    //     el2.className = "box2";
+    //   } else {
+    //     el2 = document.querySelector("div.box2");
+    //     el2.className = "box-banner2";
+    //   }
 
-      return el2;
-    }
+    //   return el2;
+    // }
 
-    var intervalID2 = window.setInterval(updateTransition2, 4000);
+    // var intervalID2 = window.setInterval(updateTransition2, 4000);
 
     function mobileCheck() {
       if (navigator.userAgent.match(/Android/i)
@@ -486,7 +486,11 @@
         || navigator.userAgent.match(/iPod/i)
         || navigator.userAgent.match(/BlackBerry/i)
         || navigator.userAgent.match(/Windows Phone/i)) {
-        document.getElementById("mobiDevice").setAttribute("class","mobiDeviceHide")
+        document.getElementById("mobiDevice").setAttribute("class", "mobiDeviceHide")
+        document.getElementById("mobi-banner").setAttribute("class", "box-banner-mobi")
+        document.getElementById("mobi-banner1").setAttribute("class", "box-banner-mobi1")
+        document.getElementById("mobi-banner2").setAttribute("class", "box-banner-mobi2")
+
       }
     }
     mobileCheck()
