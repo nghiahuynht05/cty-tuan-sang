@@ -434,49 +434,49 @@
       }, 30000)
     }
 
-    // function updateTransition() {
-    //   var el = document.querySelector("div.box-banner");
+    function updateTransition() {
+      var el = document.querySelector("div.box-banner");
 
-    //   if (el) {
-    //     el.className = "box";
-    //   } else {
-    //     el = document.querySelector("div.box");
-    //     el.className = "box-banner";
-    //   }
+      if (el) {
+        el.className = "box";
+      } else {
+        el = document.querySelector("div.box");
+        el.className = "box-banner";
+      }
 
-    //   return el;
-    // }
-    // var intervalID = window.setInterval(updateTransition, 4000);
+      return el;
+    }
+    var intervalID = window.setInterval(updateTransition, 3000);
 
-    // function updateTransition1() {
-    //   var el1 = document.querySelector("div.box-banner1");
+    function updateTransition1() {
+      var el1 = document.querySelector("div.box-banner1");
 
-    //   if (el1) {
-    //     el1.className = "box1";
-    //   } else {
-    //     el1 = document.querySelector("div.box1");
-    //     el1.className = "box-banner1";
-    //   }
+      if (el1) {
+        el1.className = "box1";
+      } else {
+        el1 = document.querySelector("div.box1");
+        el1.className = "box-banner1";
+      }
 
-    //   return el1;
-    // }
+      return el1;
+    }
 
-    // var intervalID1 = window.setInterval(updateTransition1, 4000);
+    var intervalID1 = window.setInterval(updateTransition1, 3000);
 
-    // function updateTransition2() {
-    //   var el2 = document.querySelector("div.box-banner2");
+    function updateTransition2() {
+      var el2 = document.querySelector("div.box-banner2");
 
-    //   if (el2) {
-    //     el2.className = "box2";
-    //   } else {
-    //     el2 = document.querySelector("div.box2");
-    //     el2.className = "box-banner2";
-    //   }
+      if (el2) {
+        el2.className = "box2";
+      } else {
+        el2 = document.querySelector("div.box2");
+        el2.className = "box-banner2";
+      }
 
-    //   return el2;
-    // }
+      return el2;
+    }
 
-    // var intervalID2 = window.setInterval(updateTransition2, 4000);
+    var intervalID2 = window.setInterval(updateTransition2, 3000);
 
     function mobileCheck() {
       if (navigator.userAgent.match(/Android/i)
