@@ -440,6 +440,17 @@
       if (el) {
         el.className = "box";
       } else {
+        if (navigator.userAgent.match(/Android/i)
+          || navigator.userAgent.match(/webOS/i)
+          || navigator.userAgent.match(/iPhone/i)
+          || navigator.userAgent.match(/iPad/i)
+          || navigator.userAgent.match(/iPod/i)
+          || navigator.userAgent.match(/BlackBerry/i)
+          || navigator.userAgent.match(/Windows Phone/i)) {
+          el2 = document.querySelector("div.box");
+          el2.className = "box-banner-mobi";
+
+        }
         el = document.querySelector("div.box");
         el.className = "box-banner";
       }
@@ -454,6 +465,17 @@
       if (el1) {
         el1.className = "box1";
       } else {
+        if (navigator.userAgent.match(/Android/i)
+          || navigator.userAgent.match(/webOS/i)
+          || navigator.userAgent.match(/iPhone/i)
+          || navigator.userAgent.match(/iPad/i)
+          || navigator.userAgent.match(/iPod/i)
+          || navigator.userAgent.match(/BlackBerry/i)
+          || navigator.userAgent.match(/Windows Phone/i)) {
+          el2 = document.querySelector("div.box1");
+          el2.className = "box-banner-mobi1";
+
+        }
         el1 = document.querySelector("div.box1");
         el1.className = "box-banner1";
       }
@@ -469,6 +491,17 @@
       if (el2) {
         el2.className = "box2";
       } else {
+        if (navigator.userAgent.match(/Android/i)
+          || navigator.userAgent.match(/webOS/i)
+          || navigator.userAgent.match(/iPhone/i)
+          || navigator.userAgent.match(/iPad/i)
+          || navigator.userAgent.match(/iPod/i)
+          || navigator.userAgent.match(/BlackBerry/i)
+          || navigator.userAgent.match(/Windows Phone/i)) {
+          el2 = document.querySelector("div.box2");
+          el2.className = "box-banner-mobi2";
+
+        }
         el2 = document.querySelector("div.box2");
         el2.className = "box-banner2";
       }
