@@ -459,7 +459,7 @@ h6,
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  /* font-size: 3.5rem; */
   font-weight: 300;
   line-height: 1.2;
 }
@@ -4535,7 +4535,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color:#000000;
+  color: #000000;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -5654,7 +5654,7 @@ button.close {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .modal-footer {
@@ -9860,8 +9860,8 @@ body>* {
 
 .card-img-bottom1 {
   color: #fff;
-  height: 20rem;
-  background: url(image/hinh-2.png) top no-repeat;
+  height: 100%;
+  background: url(image/hinh-2.png) center no-repeat;
   background-position-x: right;
   background-position-y: top;
   background-size: cover;
@@ -9869,7 +9869,7 @@ body>* {
 
 .card-img-bottom2 {
   color: #fff;
-  background: url(image/suadieuhoa-06.png) top no-repeat;
+  background: url(image/suadieuhoa-06.png) right no-repeat;
   background-position-x: left;
   background-position-y: top;
   background-size: cover;
@@ -9999,7 +9999,7 @@ body>* {
   z-index: 99999;
 }
 
-.mobiDeviceHide{
+.mobiDeviceHide {
   display: none;
 }
 
@@ -10040,4 +10040,23 @@ body>* {
   transition-property: background-size margin-bottom height;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
+}
+
+.mobi-randomResort{
+  left: 05%;
+}
+
+.mobi-randomHouse{
+  left: 15%;
+}
+
+.contactInfo{
+  font-size:25px
+}
+
+@media(max-width:667px){
+  .col-sm{
+    max-width: 100px;
+  }
+  
 }
