@@ -27,7 +27,7 @@
     <!-- <div class="top-info"> -->
     <div class="container">
       <div class="row">
-        <div class="col-md-6 w-75" style="padding-top: 1.5%;left: 20%;">
+        <div class="col-md-6 w-75" style="padding-top: 1.5%;left: 15%;">
           <a>CÔNG TY TNHH DỊCH VỤ GIA ĐÌNH TUẤN SÁNG</a>
         </div>
         <div class="col-md-6 w-75" id="mobiDevice" style="left:25%">
@@ -89,13 +89,13 @@
                 <div class="d-none d-md-block display-4"
                   style="background: url(image/SLOGAN-02.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;">
                 </div>
-                <div class="marquee-font">
+                <div class="marquee-font" id="marquee-font">
                   <marquee direction="left">CHẾ ĐỘ BẢO HÀNH-HẬU MÃI TUYỆT VỜI</marquee>
                 </div>
-                <div class="marquee-font">
+                <div class="marquee-font" id="marquee-font1">
                   <marquee direction="right">CHĂM SÓC TẬN TÌNH SAU DỊCH</marquee>
                 </div>
-                <div class="marquee-font">
+                <div class="marquee-font" id="marquee-font2">
                   <marquee direction="left">PHẢN HỒI CỰC NHANH - CÓ MẶT SAU 15 PHÚT 24/24</marquee>
                 </div>
                 <div class="d-none d-md-block display-4"></div>
@@ -543,6 +543,10 @@
         document.getElementById("mobiramdomResort").setAttribute("class", "mobi-randomResort col-sm-customzed")
         document.getElementById("mobiramdomHouse").setAttribute("class", "mobi-randomHouse col-sm-customzed")
         document.getElementById("img-fluid-customzed").setAttribute("class", "img-fluid-mobi")
+        document.getElementById("marquee-font").setAttribute("class", "marquee-font-mobi")
+        document.getElementById("marquee-font1").setAttribute("class", "marquee-font-mobi")
+        document.getElementById("marquee-font2").setAttribute("class", "marquee-font-mobi")
+
       }
     }
     mobileCheck()

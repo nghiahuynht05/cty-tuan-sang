@@ -538,6 +538,7 @@ mark,
   max-width: 100%;
   height: auto;
   padding: 15px;
+  margin-left:50% ;
   max-height: 620px;
 }
 
@@ -748,6 +749,7 @@ pre code {
   /* padding-right: 15px; */
   /* padding-left: 15px; */
 }
+
 .col {
   flex-basis: 0;
   flex-grow: 1;
@@ -10063,30 +10065,50 @@ body>* {
   transition-timing-function: ease-in-out;
 }
 
-.mobi-randomResort{
+.mobi-randomResort {
   left: 05%;
 }
 
-.mobi-randomHouse{
+.mobi-randomHouse {
   left: 15%;
 }
 
-.contactInfo{
-  font-size:25px
+.contactInfo {
+  font-size: 25px
 }
 
-@media(max-width:667px){
-  .col-sm-customzed{
+@media(max-width:667px) {
+  .col-sm-customzed {
     max-width: 100px;
   }
-  
+
 }
+
 @import url(https://fonts.googleapis.com/css?family=Arvo:700);
 @import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
-.marquee-font{
+
+.marquee-font {
   /* transition-duration: 2s; */
   font-family: Arvo;
   font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  /* text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222;
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;  */
+  color: white;
+}
+
+.marquee-font-mobi {
+  /* transition-duration: 2s; */
+  font-family: Arvo;
+  font-size: 30px;
   text-align: center;
   font-weight: bold;
   /* text-shadow:
