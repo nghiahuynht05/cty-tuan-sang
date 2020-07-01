@@ -41,12 +41,12 @@
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-md fixed-top border-right navbar-dark">
-    <div class="container" style="margin-left: 0;padding-left: 0;">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="container">
             <a class="navbar-brand" href="#">
-              <img class="img-fluid" src="image/LOGO-04.png" alt="">
+              <img class="img-fluid-customzed" id="img-fluid-customzed" src="image/LOGO-04.png" alt="">
             </a>
           </div>
         </div>
@@ -74,11 +74,11 @@
     </div>
   </nav>
   <!-- Banner -->
-  <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+  <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
     <div class="carousel-inner">
       <ol class="carousel-indicators">
         <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#mycarousel" data-slide-to="1" class=""></li>
+        <!-- <li data-target="#mycarousel" data-slide-to="1" class=""></li> -->
       </ol>
       <div class="carousel-item active">
         <div class="align-items-center section-aquamarine py-5 cover"
@@ -89,9 +89,17 @@
                 <div class="d-none d-md-block display-4"
                   style="background: url(image/SLOGAN-02.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;">
                 </div>
-                <div class="d-none d-md-block display-4 box-banner" id="mobi-banner"></div>
-                <div class="d-none d-md-block display-4 box-banner1" id="mobi-banner1"></div>
-                <div class="d-none d-md-block display-4 box-banner2" id="mobi-banner2"></div>
+                <div class="marquee-font">
+                  <marquee direction="left">CHẾ ĐỘ BẢO HÀNH-HẬU MÃI TUYỆT VỜI</marquee>
+                </div>
+                <div class="marquee-font">
+                  <marquee direction="right">CHĂM SÓC TẬN TÌNH SAU DỊCH</marquee>
+                </div>
+                <div class="marquee-font">
+                  <marquee direction="left">PHẢN HỒI CỰC NHANH - CÓ MẶT SAU 15 PHÚT 24/24</marquee>
+                </div>
+                <div class="d-none d-md-block display-4"></div>
+                <div class="d-none d-md-block display-4"></div>
                 <a href="#register" class="btn btn-lg btn-outline-primary text-uppercase text-center w-auto"
                   data-toggle="modal" data-target="#exampleModal"
                   style="	background-image: linear-gradient(to bottom, rgb(66, 135, 245), rgb(66, 135, 245));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">Liên
@@ -101,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <div class="align-items-center section-aquamarine py-5 cover"
           style="background-image: url(image/sss-07.png);background-size: cover">
           <div class="container">
@@ -110,9 +118,20 @@
                 <div class="d-none d-md-block display-4"
                   style="background: url(image/SLOGAN-02.png) center no-repeat;background-size: cover;height: 80px; margin-bottom: 20px;">
                 </div>
-                <div class="d-none d-md-block display-4 box-banner" id="mobi-banner"></div>
-                <div class="d-none d-md-block display-4 box-banner1" id="mobi-banner1"></div>
-                <div class="d-none d-md-block display-4 box-banner2" id="mobi-banner2"></div>
+                <div class="marquee-font">
+                  <marquee onmouseover="this.start();" onmouseout="this.start();" id="marquee" direction="left">CHẾ ĐỘ BẢO HÀNH-HẬU MÃI TUYỆT VỜI</marquee>
+                </div>
+                <div class="marquee-font">
+                  <marquee onmouseover="this.start();" onmouseout="this.start();" direction="right">CHĂM SÓC TẬN TÌNH SAU DỊCH</marquee>
+                </div>
+                <div class="marquee-font">
+                  <marquee onmouseover="this.start();" onmouseout="this.start();" direction="left">
+                    PHẢN HỒI CỰC NHANH - CÓ MẶT SAU 15 PHÚT 24/24
+                  </marquee>
+                </div>
+                <div class="d-none d-md-block display-4"></div>
+                <div class="d-none d-md-block display-4"></div>
+                <div class="d-none d-md-block display-4"></div>
                 <a href="#register" class="btn btn-lg btn-outline-primary text-uppercase text-center w-auto"
                   data-toggle="modal" data-target="#exampleModal"
                   style="	background-image: linear-gradient(to bottom, rgb(66, 135, 245), rgb(66, 135, 245));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">Liên
@@ -120,8 +139,8 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> 
+      </div> -->
     </div>
   </div>
   <!-- Modal -->
@@ -185,13 +204,13 @@
       </div>
       <div class="container">
         <div class="row align-items-center" id="fix-menu-info">
-          <div class="col-sm">
+          <div class="col-sm-customzed">
             <p id="randomParner" class="ramdom-number"></p>
           </div>
-          <div class="col-sm" id="mobiramdomResort">
+          <div class="col-sm-customzed" id="mobiramdomResort">
             <p id="randomResort" class="ramdom-number"></p>
           </div>
-          <div class="col-sm" id="mobiramdomHouse">
+          <div class="col-sm-customzed" id="mobiramdomHouse">
             <p id="randomHouse" class="ramdom-number"></p>
           </div>
         </div>
@@ -432,82 +451,82 @@
       }, 30000)
     }
 
-    function updateTransition() {
-      var el = document.querySelector("div.box-banner");
+    // function updateTransition() {
+    //   var el = document.querySelector("div.box-banner");
 
-      if (el) {
-        el.className = "box";
-      } else {
-        if (navigator.userAgent.match(/Android/i)
-          || navigator.userAgent.match(/webOS/i)
-          || navigator.userAgent.match(/iPhone/i)
-          || navigator.userAgent.match(/iPad/i)
-          || navigator.userAgent.match(/iPod/i)
-          || navigator.userAgent.match(/BlackBerry/i)
-          || navigator.userAgent.match(/Windows Phone/i)) {
-          el2 = document.querySelector("div.box");
-          el2.className = "box-banner-mobi";
+    //   if (el) {
+    //     el.className = "box";
+    //   } else {
+    //     if (navigator.userAgent.match(/Android/i)
+    //       || navigator.userAgent.match(/webOS/i)
+    //       || navigator.userAgent.match(/iPhone/i)
+    //       || navigator.userAgent.match(/iPad/i)
+    //       || navigator.userAgent.match(/iPod/i)
+    //       || navigator.userAgent.match(/BlackBerry/i)
+    //       || navigator.userAgent.match(/Windows Phone/i)) {
+    //       el2 = document.querySelector("div.box");
+    //       el2.className = "box-banner-mobi";
 
-        }
-        el = document.querySelector("div.box");
-        el.className = "box-banner";
-      }
+    //     }
+    //     el = document.querySelector("div.box");
+    //     el.className = "box-banner";
+    //   }
 
-      return el;
-    }
-    var intervalID = window.setInterval(updateTransition, 3000);
+    //   return el;
+    // }
+    // var intervalID = window.setInterval(updateTransition, 3000);
 
-    function updateTransition1() {
-      var el1 = document.querySelector("div.box-banner1");
+    // function updateTransition1() {
+    //   var el1 = document.querySelector("div.box-banner1");
 
-      if (el1) {
-        el1.className = "box1";
-      } else {
-        if (navigator.userAgent.match(/Android/i)
-          || navigator.userAgent.match(/webOS/i)
-          || navigator.userAgent.match(/iPhone/i)
-          || navigator.userAgent.match(/iPad/i)
-          || navigator.userAgent.match(/iPod/i)
-          || navigator.userAgent.match(/BlackBerry/i)
-          || navigator.userAgent.match(/Windows Phone/i)) {
-          el2 = document.querySelector("div.box1");
-          el2.className = "box-banner-mobi1";
+    //   if (el1) {
+    //     el1.className = "box1";
+    //   } else {
+    //     if (navigator.userAgent.match(/Android/i)
+    //       || navigator.userAgent.match(/webOS/i)
+    //       || navigator.userAgent.match(/iPhone/i)
+    //       || navigator.userAgent.match(/iPad/i)
+    //       || navigator.userAgent.match(/iPod/i)
+    //       || navigator.userAgent.match(/BlackBerry/i)
+    //       || navigator.userAgent.match(/Windows Phone/i)) {
+    //       el2 = document.querySelector("div.box1");
+    //       el2.className = "box-banner-mobi1";
 
-        }
-        el1 = document.querySelector("div.box1");
-        el1.className = "box-banner1";
-      }
+    //     }
+    //     el1 = document.querySelector("div.box1");
+    //     el1.className = "box-banner1";
+    //   }
 
-      return el1;
-    }
+    //   return el1;
+    // }
 
-    var intervalID1 = window.setInterval(updateTransition1, 3000);
+    // var intervalID1 = window.setInterval(updateTransition1, 3000);
 
-    function updateTransition2() {
-      var el2 = document.querySelector("div.box-banner2");
+    // function updateTransition2() {
+    //   var el2 = document.querySelector("div.box-banner2");
 
-      if (el2) {
-        el2.className = "box2";
-      } else {
-        if (navigator.userAgent.match(/Android/i)
-          || navigator.userAgent.match(/webOS/i)
-          || navigator.userAgent.match(/iPhone/i)
-          || navigator.userAgent.match(/iPad/i)
-          || navigator.userAgent.match(/iPod/i)
-          || navigator.userAgent.match(/BlackBerry/i)
-          || navigator.userAgent.match(/Windows Phone/i)) {
-          el2 = document.querySelector("div.box2");
-          el2.className = "box-banner-mobi2";
+    //   if (el2) {
+    //     el2.className = "box2";
+    //   } else {
+    //     if (navigator.userAgent.match(/Android/i)
+    //       || navigator.userAgent.match(/webOS/i)
+    //       || navigator.userAgent.match(/iPhone/i)
+    //       || navigator.userAgent.match(/iPad/i)
+    //       || navigator.userAgent.match(/iPod/i)
+    //       || navigator.userAgent.match(/BlackBerry/i)
+    //       || navigator.userAgent.match(/Windows Phone/i)) {
+    //       el2 = document.querySelector("div.box2");
+    //       el2.className = "box-banner-mobi2";
 
-        }
-        el2 = document.querySelector("div.box2");
-        el2.className = "box-banner2";
-      }
+    //     }
+    //     el2 = document.querySelector("div.box2");
+    //     el2.className = "box-banner2";
+    //   }
 
-      return el2;
-    }
+    //   return el2;
+    // }
 
-    var intervalID2 = window.setInterval(updateTransition2, 3000);
+    // var intervalID2 = window.setInterval(updateTransition2, 3000);
 
     function mobileCheck() {
       if (navigator.userAgent.match(/Android/i)
@@ -518,12 +537,12 @@
         || navigator.userAgent.match(/BlackBerry/i)
         || navigator.userAgent.match(/Windows Phone/i)) {
         document.getElementById("mobiDevice").setAttribute("class", "mobiDeviceHide")
-        document.getElementById("mobi-banner").setAttribute("class", "box-banner-mobi")
-        document.getElementById("mobi-banner1").setAttribute("class", "box-banner-mobi1")
-        document.getElementById("mobi-banner2").setAttribute("class", "box-banner-mobi2")
-        document.getElementById("mobiramdomResort").setAttribute("class", "mobi-randomResort col-sm")
-        document.getElementById("mobiramdomHouse").setAttribute("class", "mobi-randomHouse col-sm")
-        document.getElementById("contactInfo").setAttribute("class","contactInfo fa fa-phone")
+        // document.getElementById("mobi-banner").setAttribute("class", "box-banner-mobi")
+        // document.getElementById("mobi-banner1").setAttribute("class", "box-banner-mobi1")
+        // document.getElementById("mobi-banner2").setAttribute("class", "box-banner-mobi2")
+        document.getElementById("mobiramdomResort").setAttribute("class", "mobi-randomResort col-sm-customzed")
+        document.getElementById("mobiramdomHouse").setAttribute("class", "mobi-randomHouse col-sm-customzed")
+        document.getElementById("img-fluid-customzed").setAttribute("class", "img-fluid-mobi")
       }
     }
     mobileCheck()
