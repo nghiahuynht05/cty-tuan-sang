@@ -538,7 +538,7 @@ mark,
   max-width: 100%;
   height: auto;
   padding: 15px;
-  margin-left:50% ;
+  margin-left: 50%;
   max-height: 620px;
 }
 
@@ -10082,6 +10082,14 @@ body>* {
     max-width: 100px;
   }
 
+}
+
+@media (min-width: 576px) {
+  .col-sm-customzed {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
 }
 
 @import url(https://fonts.googleapis.com/css?family=Arvo:700);
